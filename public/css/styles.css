@@ -1,0 +1,153 @@
+p,table{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    min-height: 50px;
+}
+
+.foto{
+    position: absolute;
+    top: 35vh ;
+    left: 43vw;
+    border-radius: 50%;
+    max-width: 10%;
+    min-width: 100px;
+}
+.info{
+    /* color: #17a2b8; */
+    color: white;
+    /* position: absolute;
+    top:10vh; */
+    background-image: url(../images/prueba/laptop-3428644_1920.jpg);
+    width: 100%;
+    background-size: cover;
+    
+}
+.nombre{
+    background-color: #08424b88;
+}
+h1{
+    font-size:clamp(0.4rem, 5vw, 2.8rem);
+  
+  
+} 
+h2{
+    font-size:clamp(0.3rem, 4vw, 2.8rem);
+} 
+p{
+   text-align: justify;
+   color:#666666;
+}
+.contenedor{
+    background-color: #e9ecef;
+}
+section{
+    background-color: white;
+    border-radius: 2%;
+}
+.tituloP{
+    background-color: #343a4075 /* #11637080 */;
+    position: absolute;
+    z-index: 10;
+    color:#fff;
+    text-align: center;
+    bottom: 5%;
+    padding-top: 5px;
+    width: 86%;
+    left: 7%;
+    color: whitesmoke;
+}
+.listaP{
+    background-color: #343a40;
+    border-radius: 2%;
+}
+.listaP img{
+    border-radius: 2%;
+} 
+
+.contenedor2:hover img {
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+}
+.contenedor2:hover a{
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+}
+.zoom:hover {
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+}
+.contenedor2 {
+    overflow:hidden;
+}
+.mas{
+    position: absolute;
+    bottom:5%;
+    left: 65%;
+    z-index: 11;
+}
+td{
+    padding:3px;
+    text-align: justify;
+    vertical-align: sub;
+}
+table td:nth-child(1) {
+	min-width: 120px;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo{
+max-height: 60px;
+}
+.zoom{
+    position: absolute;
+    bottom: 2vw;
+    right: 5%;
+    z-index: 11;
+}
+.modal{
+    background-color: #231e1e3f;;
+  }
+  .modal-content{
+    background-color: #231e1e ;
+    color: white;
+  }
+.linea{
+    border-right: 2px solid #17a2b8 ;
+}
+.numero{
+    position: absolute;
+    top:1%;
+    left: 93%;
+    min-width: 100px;
+    font-size: 1rem;
+    background-color: #17a2b8  ;
+    color: white;
+    border-radius: 5%;
+    text-align: center;
+}
+.titulo, .infoT{
+    text-align: end; 
+    padding-right: 10%;
+}
+
+.infoT2, .titulo2{
+    text-align: start;
+
+}
+.infoT, .infoT2{
+    width: 100%;
+    height: 27px;
+    transition: width 2s, height 4s;
+    overflow: hidden;
+}
+.infoT:hover, .infoT2:hover{
+    width: 100%;
+    height:auto;
+    transition: width 2s, height 4s;
+}
+.estudio{
+    position: relative;
+}
