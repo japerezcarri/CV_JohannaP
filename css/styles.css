@@ -92,7 +92,7 @@ td{
     text-align: justify;
     vertical-align: sub;
 }
-table td:nth-child(1) {
+table td:nth-child(2) {
 	min-width: 120px;
 }
 hr{
@@ -100,7 +100,8 @@ hr{
     margin-bottom: 0;
 }
 .logo{
-max-height: 60px;
+max-height: 70px;
+margin-left: 33vw;
 }
 .zoom{
     position: absolute;
