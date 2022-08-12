@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body class="contenedor">
+<body class="container">
     <header class="bg-dark">
 
 
@@ -27,12 +27,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link " href="#perfil">Perfil<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#habilidades">Habilidades</a>
-                        <a class="nav-item nav-link" href="#portafolio">Portafolio</a>
+                        <a class="nav-item nav-link " href="#profile">Perfil<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#skills">Habilidades</a>
+                        <a class="nav-item nav-link" href="#portfolio">Portafolio</a>
                         <a class="nav-item nav-link" href="#experiencia">Experiencia</a>
                         <a class="nav-item nav-link" href="#experiencia">Estudios</a>
-                        <a class="nav-item nav-link" href="#referencias">Referencias</a>
                         <a class="btn btn-sm btn-outline-info" href="../public/CV -Johanna Alejandra Pérez Carrillo 2020. S.pdf" target="_blank">Descargar CV </a>
                     </div>
                 </div>
@@ -43,7 +42,7 @@
         </div>
 
         <div class="info ">
-            <div class=" nombre p-5 ">
+            <div class=" name p-5 ">
                 <h1>Johanna Alejandra Pérez Carrillo</h1>
                 <h2>Ingeniera de sistemas</h2>
             </div>
@@ -51,7 +50,7 @@
         <img class="foto" src="../public/images/foto2.jpg" alt="foto-JohannaP">
 
     </header>
-    <section id="perfil" class="container my-5 perfil p-3">
+    <section id="profile" class="container my-5 perfil p-3">
         <h1 class="mb-3">Perfil</h1>
         <div class="row">
 
@@ -106,7 +105,7 @@
         </div>
     </section>
 
-    <section id="habilidades" class="container my-5 habilidades p-3 ">
+    <section id="skills" class="container my-5 skills p-3">
         <h1 class="mb-3">Habilidades en programación</h1>
         <div class="row justify-content-between">
 
@@ -254,11 +253,11 @@
 
     </section>
 
-    <section id="portafolio" class="container portafolio my-5 p-3 ">
+    <section id="portfolio" class="container portfolio my-5 p-3">
         <h1>Portafolio</h1>
-        <!-- Contenedor primer proyecto -->
+        <!-- first project -->
         <div>
-            <div id="proyecto1" class="d-none ">
+            <div id="first-proj" class="d-none ">
 
                 <!-- <h2>Swipe</h2> -->
                 <div class="col-md-6 col-12">
@@ -403,9 +402,9 @@
             </div>
         </div>
 
-        <!-- Contenedor sgundo proyecto -->
+        <!-- Second project -->
         <div>
-            <div id="proyecto2" class="d-none ">
+            <div id="sec-proj" class="d-none ">
 
                 <!-- <h2>Swipe</h2> -->
                 <div class="col-md-6 col-12">
@@ -573,33 +572,33 @@
         </div>
         <hr>
 
-        <!-- lista de proyectos -->
+        <!-- projects list-->
 
         <div class="row pb-3  ">
             <div class="col-md-4 col-sm-12 col-12  contenedor2 ">
-                <div class=" m-1 p-1 listaP">
+                <div class=" m-1 p-1 p-list">
                     <img class="img-fluid" src="../public/images/swipe1.jpeg" alt="swipe">
-                    <a class="mas btn btn-outline-light mt-2 " onclick="mostrar(1)" href="#proyecto1"> +</a>
-                    <div class="tituloP d-md-block ">
+                    <a class="mas btn btn-outline-light mt-2 " onclick="show(1)" href="#first-proj"> +</a>
+                    <div class="p-title d-md-block ">
                         <h5>Swipe</h5>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-12 col-12  contenedor2 ">
-                <div class=" m-1 p-1 listaP">
+                <div class=" m-1 p-1 p-list">
                     <img class="img-fluid" src="../public/images/animedia1.jpeg" alt="animedia">
-                    <a class="mas btn btn-outline-light mt-2 " onclick="mostrar(2)" href="#proyecto2"> +</a>
-                    <div class="tituloP d-md-block ">
+                    <a class="mas btn btn-outline-light mt-2 " onclick="show(2)" href="#sec-proj"> +</a>
+                    <div class="p-title d-md-block ">
                         <h5>Animedia</h5>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-12 col-12  contenedor2 ">
-                <div class=" m-1 p-1 listaP">
+                <div class=" m-1 p-1 p-list">
                     <img class="img-fluid" src="" alt="animedia">
-                    <button class="mas btn btn-outline-light mt-2 " onclick="mostrar(3)"> +</button>
-                    <div class="tituloP d-md-block ">
+                    <button class="mas btn btn-outline-light mt-2 " onclick="show(3)"> +</button>
+                    <div class="p-title d-md-block ">
                         <h5>Tecno.</h5>
                     </div>
                 </div>
@@ -696,8 +695,8 @@
 
     </div>
     <script>
-        function mostrar(numero) {
-            switch (numero) {
+        function show(num) {
+            switch (num) {
                 case 1:
                     document.getElementById('proyecto1').setAttribute('class', ' row pt-3 px-3 ');
                     document.getElementById('proyecto2').setAttribute('class', 'd-none');

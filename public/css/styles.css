@@ -23,7 +23,7 @@ header{
     background-size: cover;
     
 }
-.nombre{
+.name{
     background-color: #08424b88;
 }
 h1{
@@ -38,14 +38,14 @@ p{
    text-align: justify;
    color:#666666;
 }
-.contenedor{
+.container{
     background-color: #e9ecef;
 }
 section{
     background-color: white;
     border-radius: 2%;
 }
-.tituloP{
+.p-title{
     background-color: #343a4075 /* #11637080 */;
     position: absolute;
     z-index: 10;
@@ -57,11 +57,11 @@ section{
     left: 7%;
     color: whitesmoke;
 }
-.listaP{
+.p-list{
     background-color: #343a40;
     border-radius: 2%;
 }
-.listaP img{
+.p-list img{
     border-radius: 2%;
 } 
 
