@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body class="container">
+<body class="container-jp">
     <header class="bg-dark">
 
 
@@ -44,14 +44,14 @@
         <div class="info ">
             <div class=" name p-5 ">
                 <h1>Johanna Alejandra Pérez Carrillo</h1>
-                <h2>Ingeniera de sistemas</h2>
+                <h2>Systems Engineer</h2>
             </div>
         </div>
         <img class="foto" src="../public/images/foto2.jpg" alt="foto-JohannaP">
 
     </header>
     <section id="profile" class="container my-5 perfil p-3">
-        <h1 class="mb-3">Perfil</h1>
+        <h1 class="mb-3">Profile</h1>
         <div class="row">
 
             <div class="col-md-7 col-sm-12 col-12 mt-2 ">
@@ -698,28 +698,28 @@
         function show(num) {
             switch (num) {
                 case 1:
-                    document.getElementById('proyecto1').setAttribute('class', ' row pt-3 px-3 ');
-                    document.getElementById('proyecto2').setAttribute('class', 'd-none');
+                    document.getElementById('first-proj').setAttribute('class', ' row pt-3 px-3 ');
+                    document.getElementById('sec-proj').setAttribute('class', 'd-none');
                     document.getElementById('proyecto4').setAttribute('class', 'd-none');
                     document.getElementById('proyecto3').setAttribute('class', 'd-none');
                     break;
                 case 2:
-                    document.getElementById('proyecto1').setAttribute('class', 'd-none ');
-                    document.getElementById('proyecto2').setAttribute('class', 'row pt-3 px-3');
+                    document.getElementById('first-proj').setAttribute('class', 'd-none ');
+                    document.getElementById('sec-proj').setAttribute('class', 'row pt-3 px-3');
                     document.getElementById('proyecto3').setAttribute('class', 'd-none');
                     document.getElementById('proyecto4').setAttribute('class', 'd-none');
                     break;
                 case 3:
                     document.getElementById('proyecto3').setAttribute('class', 'row pt-3 px-3');
-                    document.getElementById('proyecto2').setAttribute('class', 'd-none');
-                    document.getElementById('proyecto1').setAttribute('class', 'd-none');
+                    document.getElementById('sec-proj').setAttribute('class', 'd-none');
+                    document.getElementById('first-proj').setAttribute('class', 'd-none');
                     document.getElementById('proyecto4').setAttribute('class', 'd-none');
                     break;
                 case 4:
                     document.getElementById('proyecto4').setAttribute('class', 'row pt-3 px-3');
-                    document.getElementById('proyecto2').setAttribute('class', 'd-none');
+                    document.getElementById('sec-proj').setAttribute('class', 'd-none');
                     document.getElementById('proyecto3').setAttribute('class', 'd-none');
-                    document.getElementById('proyecto1').setAttribute('class', 'd-none');
+                    document.getElementById('first-proj').setAttribute('class', 'd-none');
                     break;
 
             }
